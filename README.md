@@ -44,7 +44,39 @@ Reproducibility is often neglected in ML experimentation. This project provides 
 * Used to test autograd-engine performance
 * Used for research studies (scalable-attention-study)
 
-## 5. Long-Term Direction
+## 5. Ecosystem Integration
+
+ml-benchmark-suite provides the experimental and evaluation infrastructure for the broader system.
+
+It is designed to:
+
+* Benchmark distributed performance in distml-core
+* Evaluate memory and computational behavior in autograd-engine
+* Track reproducible results for experiments in scalable-attention-study
+
+This repository ensures structured experimentation, reproducibility, and standardized metric reporting across the ecosystem.
+
+## 6. Implementation Roadmap
+
+### Phase 1
+
+* Core minimal functionality
+* Controlled synthetic experiments
+* Basic metric logging
+  
+### Phase 2
+
+* Performance benchmarking
+* Ablation studies
+* Architectural refinements
+
+### Phase 3
+
+* Scalability extensions
+* Integration with other repositories
+* Extended experimental evaluation
+
+## 7. Long-Term Direction
 
 * Automated ablation framework
 * Statistical significance testing
